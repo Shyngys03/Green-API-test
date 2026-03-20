@@ -1,4 +1,4 @@
-import { Builder, By, until } from "selenium-webdriver";
+import { Builder, By } from "selenium-webdriver";
 
 // Увеличиваем таймаут для тестов, так как загрузка страницы может занять некоторое время
 // Я использовал WSL, и там иногда бывают задержки при открытии браузера
