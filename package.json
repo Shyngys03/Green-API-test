@@ -1,0 +1,26 @@
+{
+  "name": "green-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/jest": "^30.0.0",
+    "axios": "^1.13.6",
+    "dotenv": "^17.3.1",
+    "jest": "^30.3.0",
+    "selenium-webdriver": "^4.41.0",
+    "ts-jest": "^29.4.6",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/selenium-webdriver": "^4.35.5",
+    "chromedriver": "^146.0.5"
+  }
+}

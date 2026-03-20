@@ -1,0 +1,9 @@
+import axios from "axios";
+import { config } from "../config/config";
+
+export const api = axios.create({
+  baseURL: `${config.baseUrl}/waInstance${config.instanceId}`,
+  headers: {
+    "Content-Type": "application/json",
+  },
+});
